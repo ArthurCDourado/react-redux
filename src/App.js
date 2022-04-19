@@ -1,21 +1,21 @@
 import './App.css';
-import Card from "./components/Card";
+import Intervalo from "./components/Intervalo";
+import Sorteio from "./components/Sorteio";
+import Soma from "./components/Soma";
+import Media from "./components/Media";
 
 function App() {
   return (
     <div className="App">
         <h1>Exercício React-Redux (Simples)</h1>
         <div className="linha">
-            <Card/>
-            <Card/>
-            <Card/>
+            <Intervalo/>
         </div>
         <div className="linha">
-            <Card/>
-            <Card/>
-            <Card/>
+            <Media />
+            <Soma />
+            <Sorteio/>
         </div>
-      <Card/>
     </div>
   );
 }
