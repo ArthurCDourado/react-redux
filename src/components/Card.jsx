@@ -2,7 +2,6 @@ import React from "react";
 import './Card.css'
 
 function getColor(props) {
-    console.log(props)
     if(props.red) return 'Red'
     if(props.green) return 'Green'
     if(props.blue) return 'Blue'
